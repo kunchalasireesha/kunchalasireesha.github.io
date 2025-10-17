@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useRef } from 'react';
-import profilephoto from '../assets/profile_photo3.jpg';
+import profilephoto from '../assets/profile_photo.jpg';
 import {
     Github,
     Linkedin,
