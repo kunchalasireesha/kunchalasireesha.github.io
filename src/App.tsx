@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import About from './components/About';
+// import About from './components/About';
 import Main from './components/Main';
 // import ResumePDF from './assets/Sireesha-Kunchala-Resume.pdf';
 

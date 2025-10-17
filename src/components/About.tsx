@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail, Book, Palette, Brain, Code2, Rocket, HeartHandshake } from 'lucide-react';
+import { Github, Linkedin, Mail, Book, Brain, Code2, Rocket, HeartHandshake } from 'lucide-react';
 import { InteractiveTimeline } from './InteractiveTimeline';
 import { QuoteCarousel } from './QuoteCarousel';
 import { ProjectStats } from './ProjectStats';

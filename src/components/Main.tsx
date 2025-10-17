@@ -8,12 +8,10 @@ import {
     Code2,
     Database,
     Globe,
-    Server,
     Cpu,
-    BrainCircuit,
     Rocket,
     MessageSquare,
-    Sparkles, Braces, Figma, Wrench
+    Sparkles, Braces, Wrench
 } from 'lucide-react';
 import { useInView } from 'react-intersection-observer';
 import { InteractiveBackground } from './InteractiveBackground';
