@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-// import About from './components/About';
+import About from './components/About';
 import Main from './components/Main';
-// import ResumePDF from './assets/Sireesha-Kunchala-Resume.pdf';
+import ResumePDF from './assets/Sireesha-Kunchala-Resume.pdf';
 
 function App() {
   return (
@@ -27,14 +27,14 @@ function App() {
               <Link to="/about" className="text-gray-700 hover:text-purple-500">
                 About
               </Link>
-              {/* <a
+              <a
                   href={ResumePDF}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-700 hover:text-purple-500"
               >
                 Resume
-              </a> */}
+              </a>
             </div>
           </div>
         </nav>
@@ -42,7 +42,7 @@ function App() {
         {/* Define Routes */}
         <Routes>
           <Route path="/" element={<Main/>} />
-          {/* <Route path="/about" element={<About />} /> */}
+          <Route path="/about" element={<About />} />
         </Routes>
       </Router>
   );

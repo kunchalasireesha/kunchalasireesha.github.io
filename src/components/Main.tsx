@@ -15,7 +15,7 @@ import {
 } from 'lucide-react';
 import { useInView } from 'react-intersection-observer';
 import { InteractiveBackground } from './InteractiveBackground';
-// import { Projects } from './Projects';
+import { Projects } from './Projects';
 
 function App() {
     const [heroRef] = useInView({ threshold: 0.1, triggerOnce: true });
@@ -220,7 +220,7 @@ function App() {
                     >
                         <div className="relative">
                             {/* glow behind image */}
-                            <div className="absolute -inset-1 bg-gradient-to-r from-teal-500 to-orange-500 rounded-full blur-lg opacity-50 -z-10 pointer-events-none lg:w-80 lg:h-80" />
+                            <div className="absolute -inset-1 bg-gradient-to-r from-teal-500 to-purple-500 rounded-full blur-lg opacity-50 -z-10 pointer-events-none lg:w-80 lg:h-80" />
 
                             {/* circular container ensures correct aspect ratio and hides overflow */}
                             <div className="w-64 h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden">
@@ -340,7 +340,7 @@ function App() {
 
             {/* Projects Section */}
             <section ref={projectsRef} id="projects" className="py-20 px-8 bg-white-100">
-                {/* <Projects /> */}
+                <Projects />
             </section>
 
 

@@ -1,9 +1,8 @@
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Mail, Book, Brain, Code2, Rocket, HeartHandshake } from 'lucide-react';
+import { Github, Linkedin, Mail, Book, Code2, Rocket, HeartHandshake, Sparkles } from 'lucide-react';
 import { InteractiveTimeline } from './InteractiveTimeline';
 import { QuoteCarousel } from './QuoteCarousel';
-import { ProjectStats } from './ProjectStats';
-import {useRef} from "react";
+import { useRef } from "react";
 
 export function About() {
     const contactRef = useRef(null);
@@ -38,7 +37,7 @@ export function About() {
                         </div>
                     </motion.div>
                     <h1 className="text-5xl font-bold bg-gradient-to-r from-indigo-600 via-purple-600 to-rose-600 text-transparent bg-clip-text mb-6 pb-8">
-                       <i>Beyond the Code</i>
+                        <i>Beyond the Code</i>
                     </h1>
                     <QuoteCarousel />
                 </motion.section>
@@ -56,41 +55,32 @@ export function About() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                         <motion.div
                             whileHover={{ scale: 1.02 }}
+                            className="p-6 bg-gradient-to-br from-purple-50 to-rose-50 rounded-xl"
+                        >
+                            <div className="flex items-center space-x-4 mb-4">
+                                <Rocket className="w-8 h-8 text-purple-600" />
+                                <h3 className="text-xl font-semibold">Backend Engineering</h3>
+                            </div>
+                            <p className="text-gray-600">
+                                I’m passionate about designing and developing scalable backend systems that power efficient and reliable applications.
+                                Although most of my work so far has been full-stack, I’ve always been deeply interested in backend architecture,
+                                APIs, and system design — and I’m eager to take on more backend-focused opportunities.
+                            </p>
+                        </motion.div>
+                        <motion.div
+                            whileHover={{ scale: 1.02 }}
                             className="p-6 bg-gradient-to-br from-indigo-50 to-purple-50 rounded-xl"
                         >
                             <div className="flex items-center space-x-4 mb-4">
                                 <Code2 className="w-8 h-8 text-indigo-600" />
-                                <h3 className="text-xl font-semibold">Full Stack + AI</h3>
+                                <h3 className="text-xl font-semibold">Full Stack</h3>
                             </div>
                             <p className="text-gray-600">
                                 Passionate about building end-to-end solutions that leverage AI to create intelligent, user-centric applications.
                                 Excited to explore the intersection of traditional software development and artificial intelligence.
                             </p>
                         </motion.div>
-                        <motion.div
-                            whileHover={{ scale: 1.02 }}
-                            className="p-6 bg-gradient-to-br from-purple-50 to-rose-50 rounded-xl"
-                        >
-                            <div className="flex items-center space-x-4 mb-4">
-                                <Rocket className="w-8 h-8 text-purple-600" />
-                                <h3 className="text-xl font-semibold">Product Management</h3>
-                            </div>
-                            <p className="text-gray-600">
-                                Combining technical expertise with product vision to bridge the gap between user needs and technical solutions.
-                                Keen on driving product strategy and innovation.
-                            </p>
-                        </motion.div>
                     </div>
-                </motion.section>
-
-                {/* Project Stats */}
-                <motion.section
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.8 }}
-                    className="mb-16"
-                >
-                    <ProjectStats />
                 </motion.section>
 
                 {/* Personal Interests */}
@@ -122,9 +112,9 @@ export function About() {
                         whileHover={{ scale: 1.05 }}
                         className="p-6 bg-white rounded-xl shadow-lg text-center"
                     >
-                        <Brain className="w-12 h-12 text-rose-600 mx-auto mb-4" />
-                        <h3 className="text-xl font-semibold mb-2">AI Exploration</h3>
-                        <p className="text-gray-600"> I love exploring the fascinating world of artificial intelligence and its possibilities</p>
+                        <Sparkles className="w-12 h-12 text-rose-600 mx-auto mb-4" />
+                        <h3 className="text-xl font-semibold mb-2">Mindfullness</h3>
+                        <p className="text-gray-600"> I practice mindfulness and spirituality to stay grounded, reflect, and grow personally.</p>
                     </motion.div>
                 </motion.section>
 
@@ -149,7 +139,7 @@ export function About() {
                     </h2>
                     <div className="flex justify-center gap-8">
                         <motion.a
-                            href="https://github.com/aditi-v79"
+                            href="https://github.com/kunchalasireesha"
                             target="_blank"
                             rel="noopener noreferrer"
                             whileHover={{ scale: 1.1, rotate: 5 }}
@@ -158,7 +148,7 @@ export function About() {
                             <Github className="h-8 w-8" />
                         </motion.a>
                         <motion.a
-                            href="https://linkedin.com/in/aditi-vakeel"
+                            href="https://www.linkedin.com/in/sireeshakunchala/"
                             target="_blank"
                             rel="noopener noreferrer"
                             whileHover={{ scale: 1.1, rotate: -5 }}
@@ -167,7 +157,7 @@ export function About() {
                             <Linkedin className="h-8 w-8" />
                         </motion.a>
                         <motion.a
-                            href="mailto:aditivakeel@gmail.com"
+                            href="mailto:sireeshakunchala06@gmail.com"
                             whileHover={{ scale: 1.1, rotate: 5 }}
                             className="text-gray-600 hover:text-teal-500 transition-colors"
                         >

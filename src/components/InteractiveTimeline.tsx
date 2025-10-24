@@ -1,11 +1,11 @@
 import { motion } from 'framer-motion';
-import { Heart, Music, Plane, Book } from 'lucide-react';
+import { Heart, Music, MountainIcon } from 'lucide-react';
 
 const timelineItems = [
     {
         icon: <Heart className="w-6 h-6" />,
         title: "Why I Code",
-        description: "I saw coding as more than just a skill-it gave me the freedom to dream big, solve meaningful problems, and create something that could truly impact lives. That’s why I started, and that’s what keeps me going.",
+        description: "I started coding as a way to create my own financial freedom and transform my life. Over time, it became more than that a way to dream bigger, solve meaningful problems, and build things that can truly impact people’s lives. That’s why I started, and that’s what keeps me going.",
         color: "bg-red-100 text-red-600"
     },
     {
@@ -15,16 +15,10 @@ const timelineItems = [
         color: "bg-blue-100 text-blue-600"
     },
     {
-        icon: <Plane className="w-6 h-6" />,
+        icon: <MountainIcon className="w-6 h-6" />,
         title: "Adventures",
-        description: "I love travelling, from adrenaline-filled sports to making mountains my home for vacation. When I’m not exploring, you’ll likely find me on a tennis court or smashing a game of ping pong. ",
+        description: "I’m drawn to mountains, waterfalls, and beaches places that inspire curiosity and awe. I also enjoy recreating traditional Indian dishes, experimenting with flavors in the kitchen. Over time, I’ve built a life where I can finally pursue the passions I dreamed of as a child, which weren’t possible before due to financial constraints.",
         color: "bg-green-100 text-green-600"
-    },
-    {
-        icon: <Book className="w-6 h-6" />,
-        title: "Always Learning",
-        description: "Currently learning French! Because why not? I’m also the kind of person whose bookshelf outshines their TV. ",
-        color: "bg-yellow-100 text-yellow-600"
     }
 ];
 
