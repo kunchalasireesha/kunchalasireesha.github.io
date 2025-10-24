@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Github, Star, ExternalLink } from 'lucide-react';
+import { Github, ExternalLink } from 'lucide-react';
 import donsEats from '../assets/donseats.png';
 import chatbot from '../assets/PFW_chatbot.png';
 import VoicePrescription from '../assets/voiceprescription.png';
