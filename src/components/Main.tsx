@@ -8,7 +8,6 @@ import {
     Code2,
     Database,
     Globe,
-    Cpu,
     Rocket,
     MessageSquare,
     Sparkles, Braces, Wrench
