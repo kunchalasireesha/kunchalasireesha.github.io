@@ -34,14 +34,11 @@ function App() {
 
     const skills = [
         { name: 'Frontend Development', icon: <Globe className="h-8 w-8" />, details: 'React, TypeScript' },
-        // { name: 'Backend Development', icon: <Server className="h-8 w-8" />, details: 'Go, PHP' },
         { name: 'Database Management', icon: <Database className="h-8 w-8" />, details: 'MySql, Redis, MongoDB, Firebase, Postgres' },
-        { name: 'System Architecture', icon: <Cpu className="h-8 w-8" />, details: 'Docker' },
-        { name: 'API Development', icon: <Code2 className="h-8 w-8" />, details: 'REST, FastAPI, GraphQL, Express' },
-        // { name: 'AI/ML Integration', icon: <BrainCircuit className="h-8 w-8" />, details: 'TensorFlow, PyTorch, Keras, YOLO, Pandas' },
+        // { name: 'System Architecture', icon: <Cpu className="h-8 w-8" />, details: 'Docker' },
+        { name: 'API Development', icon: <Code2 className="h-8 w-8" />, details: 'REST, Express' },
         { name: 'Programming Languages', icon: <Braces className="h-8 w-8" />, details: 'Golang, Python, Java, JavaScript' },
         { name: 'Dev Tools & Methodologies', icon: <Wrench className="h-8 w-8" />, details: 'Git, Agile Development, CI/CD' },
-        // { name: 'UI/UX Design', icon: <Figma className="h-8 w-8" />, details: 'Figma, UI/UX Design Principles' },
 
     ];
 
